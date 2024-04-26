@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 
 
-getAllPlanets = () => {
+const getAllPlanets = () => {
   const url = 'https://graph.sprw.dev/api/graphql';
   return axios.get(url, {
     params: {
