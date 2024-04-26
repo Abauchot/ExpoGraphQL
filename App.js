@@ -44,7 +44,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <Text>List of planets:aaaa</Text>
+      <Text>List of planets:</Text>
       {planets.map(planet => (
         <Text key={planet.node.id}>{planet.node.name}</Text>
       ))}
